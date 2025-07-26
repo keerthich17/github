@@ -1,0 +1,16 @@
+Alias:
+======
+This alias are used to make long commands to short & simple.
+ex:
+1.git status
+git config --global alias.st "status"
+git st
+2. git commit -m "sample"
+git config --global alias.cmt "commit -m "sample""
+git cmt
+3.1.git show
+git config --global alias.s "show"
+git s
+
+To remove alias:
+git config --global --unset alias.cmt
